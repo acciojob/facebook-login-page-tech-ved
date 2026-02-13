@@ -2,37 +2,41 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Facebook – log in or sign up</title>
+  <title>Facebook</title>
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
   <div class="container">
+    <!-- LEFT -->
     <div class="left">
-      <h1 class="logo">facebook</h1>
-      <p class="desc">
+      <img src="https://static.xx.fbcdn.net/rsrc.php/y1/r/4lCu2zih0ca.svg" alt="facebook" />
+      <p>
         Facebook helps you connect and share with the people in your life.
       </p>
     </div>
 
+    <!-- RIGHT -->
     <div class="right">
       <div class="login-box">
         <input
+          id="email"
           type="text"
           placeholder="Email address or phone number"
         />
+
         <input
+          id="password"
           type="password"
           placeholder="Password"
         />
 
         <button class="login-btn">Log in</button>
 
-        <a href="#" class="forgot">Forgotten account?</a>
+        <a href="/recover/initiate">Forgotten account?</a>
 
         <hr />
 
-        <button class="create-btn">Create new account</button>
+        <button class="signup">Create new account</button>
       </div>
     </div>
   </div>
