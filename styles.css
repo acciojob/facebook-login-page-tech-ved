@@ -46,3 +46,15 @@ input {
   border: none;
   width: 100%;
 }
+
+.signup {
+  display: inline-block;
+  text-align: center;
+  background: #42b72a;
+  color: white;
+  padding: 10px;
+  border-radius: 6px;
+  text-decoration: none;
+  width: 100%;
+}
+
